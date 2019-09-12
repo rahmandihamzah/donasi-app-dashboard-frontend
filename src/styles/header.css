@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.header-container {
+    /* border: 1px solid black; */
+    background-color: rgb(6, 48, 68);
+    /* width: 15vw; */
+    height: 7vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: antiquewhite;
+}

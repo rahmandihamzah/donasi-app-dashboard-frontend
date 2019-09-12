@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.dashboard-donatur-content-container {
+    background-color: #ececec;
+    border-radius: 50px 0 0 0;
+    position: relative;
+}
+
+.report-table-donatur-container {
+    height: 93vh;
+    overflow: auto;
+}
+
+.table-donatur {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .table-donatur thead {
+    position: fixed;
+    top: 0;
+    display: none;
+} */
+
+.table-content-center {
+    text-align: center;
+}

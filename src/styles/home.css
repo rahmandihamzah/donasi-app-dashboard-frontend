@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+.dashboard-content-container {
+    background-color: #ececec;
+    border-radius: 50px 0 0 0;
+    position: relative;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.action-container {
+    width: 100%;
+    text-align: right;
+}
+
+.action-container a:hover {
+    text-decoration: none;
+}
+
+.btn-download {
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.report-card-container {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.report-card {
+    background-color: #cccccc;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.title-description {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.nominal-report {
+    width: 100%;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
