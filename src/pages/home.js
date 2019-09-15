@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-// import { MDBNavbar, MDBNavbarBrand, NavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer } from 'mdbreact';
+import { MDBNavbar, MDBNavbarBrand, NavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer } from 'mdbreact';
 
 //chart
 import Chart from '../components/chart';
@@ -29,9 +29,9 @@ class Home extends Component {
         document.body.style.background = "#142d4c";
     }
 
-    // toggleCollapse = collapseID => () => {
-    //     this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
-    // }
+    toggleCollapse = collapseID => () => {
+        this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
+    }
 
     render() {
         return (
@@ -40,33 +40,9 @@ class Home extends Component {
                     {/* <Header /> */}
                     <Sidebar />
                     <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
-                        {/* <div href="#" className="burger-navbar dropdown d-sm-none" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <div className="bar1"></div>
-                            <div className="bar2"></div>
-                            <div className="bar3"></div>
-                            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <Link to="/" className="dropdown-item">Dashboard</Link>
-                                <Link to="/donatur" className="dropdown-item">Donatur</Link>
-                                <Link to="/donasi" className="dropdown-item">Donasi</Link>
-                                <Link to="/notifikasi" className="dropdown-item">Notifikasi</Link>
-                            </div>
-                        </div> */}
-
-                        {/* <Menu burgerBarClassName={"my-class"}>
-                            <a id="dashboard" className="menu-item" href="/">Dashboard</a>
-                            <a id="donatur" className="menu-item" href="/donatur">Donatur</a>
-                            <a id="donasi" className="menu-item" href="/donasi">Donasi</a>
-                            <a id="notifikasi" className="menu-item" href="/notifikasi">Notifikasi</a>
-                            <a onClick={this.showSettings} className="menu-item--small" href="">Settings</a>
-                        </Menu> */}
-
-
-
-
-
-                        {/* <Router>
+                        <Router>
                             <MDBContainer className="d-md-none">
-                                <MDBNavbar color="light-blue lighten-4" style={{ marginTop: '20px' }} light>
+                                <MDBNavbar color="lighten-4" style={{ marginTop: '20px', background: 'transparent' }} light>
                                     <MDBContainer>
                                         <MDBNavbarToggler onClick={this.toggleCollapse('navbarCollapse1')} />
                                         <MDBCollapse id="navbarCollapse1" isOpen={this.state.collapseID} navbar>
@@ -88,12 +64,7 @@ class Home extends Component {
                                     </MDBContainer>
                                 </MDBNavbar>
                             </MDBContainer>
-                        </Router> */}
-
-
-
-
-
+                        </Router>
 
                         <div className="action-container mt-3">
                             <a href="#">
@@ -134,7 +105,7 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
         )
     }
 }

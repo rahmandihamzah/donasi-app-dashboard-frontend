@@ -7,7 +7,7 @@ import '../styles/sidebar.css';
 class Sidebar extends Component {
     render() {
         return (
-            <div className="sidebar-container col-3 col-md-2 m-0 d-none d-sm-flex flex-sm-column align-items-center">
+            <div className="sidebar-container col-3 col-sm-2 m-0 d-none d-sm-flex flex-sm-column align-items-center">
                 <div className="logo-container my-sm-3">
                     DONASI APP
                 </div>

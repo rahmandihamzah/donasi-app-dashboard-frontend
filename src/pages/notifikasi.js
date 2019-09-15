@@ -19,7 +19,7 @@ class Notifikasi extends Component {
                 <div className="row m-0">
                     {/* <Header /> */}
                     <Sidebar />
-                    <div className="dashboard-notifikasi-content-container col-12 col-sm-9 col-md-10">
+                    <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
                     </div>
                 </div>
             </div>
