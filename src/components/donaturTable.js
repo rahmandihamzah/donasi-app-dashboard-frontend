@@ -3,7 +3,7 @@ import {
     MDBDataTable,
 } from 'mdbreact';
 
-const DonaturTable = () => {
+const DonasiTable = () => {
     const data = {
         columns: [
             {
@@ -40,17 +40,21 @@ const DonaturTable = () => {
                 label: 'Action',
                 field: 'action',
                 sort: 'asc',
-                width: 150
+                width: 100
             }
         ],
         rows: [
             {
-                name: 'Nama Donatur Satu',
+                name: 'aaaaaaaaaaa',
                 id: 'ID-201112345',
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -58,7 +62,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -66,7 +74,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -74,7 +86,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -82,7 +98,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -90,7 +110,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -98,7 +122,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -106,7 +134,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -114,7 +146,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -122,7 +158,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -130,7 +170,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -138,7 +182,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             },
             {
                 name: 'Nama Donatur Satu',
@@ -146,31 +194,11 @@ const DonaturTable = () => {
                 email: 'donatursatu@yourmail.com',
                 telp: '+6212345678910',
                 status: 'Reguler',
-                action: 'edit, delete'
-            },
-            {
-                name: 'Nama Donatur Satu',
-                id: 'ID-201112345',
-                email: 'donatursatu@yourmail.com',
-                telp: '+6212345678910',
-                status: 'Reguler',
-                action: 'edit, delete'
-            },
-            {
-                name: 'Nama Donatur Satu',
-                id: 'ID-201112345',
-                email: 'donatursatu@yourmail.com',
-                telp: '+6212345678910',
-                status: 'Reguler',
-                action: 'edit, delete'
-            },
-            {
-                name: 'Nama Donatur Satu',
-                id: 'ID-201112345',
-                email: 'donatursatu@yourmail.com',
-                telp: '+6212345678910',
-                status: 'Reguler',
-                action: 'edit, delete'
+                action:
+                    <div className="table-action">
+                        <a href="/donaturEdit"><i className="fas fa-pen"></i></a>
+                        <a href=""><i className="fas fa-trash"></i></a>
+                    </div>
             }
         ]
     };
@@ -179,7 +207,7 @@ const DonaturTable = () => {
         <MDBDataTable
             scrollX
             scrollY
-            maxHeight="300px"
+            maxHeight="80vh"
             striped
             bordered
             data={data}
@@ -187,4 +215,4 @@ const DonaturTable = () => {
     );
 }
 
-export default DonaturTable;
+export default DonasiTable;

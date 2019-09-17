@@ -8,3 +8,14 @@
     border-radius: 50px 0 0 0;
     position: relative;
 }
+
+.detailDonasi-content {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.detailDonasi-content tr td {
+    padding: 10px;
+}

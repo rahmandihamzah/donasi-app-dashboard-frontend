@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 //pages
 import Home from './pages/home';
 import Donatur from './pages/donatur';
+import DonaturEdit from './pages/donaturEdit';
 import Donasi from './pages/donasi';
 import Notifikasi from './pages/notifikasi';
 import AdminProfile from './pages/adminProfile';
@@ -18,6 +19,7 @@ class App extends Component {
         <Router>
           <Route exact path="/" component={Home} />
           <Route path="/donatur" component={Donatur} />
+          <Route path="/donaturEdit" component={DonaturEdit} />
           <Route path="/donasi" component={Donasi} />
           <Route path="/notifikasi" component={Notifikasi} />
           <Route path="/adminProfile" component={AdminProfile} />

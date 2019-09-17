@@ -7,7 +7,7 @@ import '../styles/sidebar.css';
 class Sidebar extends Component {
     render() {
         return (
-            <div className="sidebar-container col-3 col-sm-2 m-0 d-none d-sm-flex flex-sm-column align-items-center">
+            <div className="sidebar-container col-3 col-md-2 m-0 d-none d-md-flex flex-sm-column align-items-center">
                 <div className="logo-container my-sm-3">
                     DONASI APP
                 </div>
@@ -18,7 +18,6 @@ class Sidebar extends Component {
                     <div className="dropdown">
                         <a href="#" className="dropdown-trigger dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <p className="m-2">Administrator</p>
-                            {/* <i className="fas fa-sort-down mx-2"></i> */}
                         </a>
                         <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                             <a className="dropdown-item" href="/adminProfile">Profile</a>
@@ -41,6 +40,12 @@ class Sidebar extends Component {
                             <Link to="/notifikasi">Notifikasi</Link>
                         </li>
                     </ul>
+                </div>
+                <div className="signout-container">
+                    <a className="d-flex align-items-center">
+                        <i className="fas fa-sign-out-alt signout-icon"></i>
+                        <p className="my-0 ml-2">Sign Out</p>
+                    </a>
                 </div>
             </div>
         )

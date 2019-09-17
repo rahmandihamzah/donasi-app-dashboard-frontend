@@ -8,3 +8,24 @@
     border-radius: 50px 0 0 0;
     position: relative;
 }
+
+.profilePic-container {
+    border: 1px solid black;
+    height: 30vh;
+    display: block;
+    justify-content: center;
+}
+
+.profilePic {
+    border: 1px solid black;
+    width: 75% !important;
+    padding-top: 75% !important;
+    position: relative;
+}
+
+.pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}

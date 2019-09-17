@@ -4,12 +4,9 @@ import React, { Component } from 'react';
 // import ScriptTag from 'react-script-tag';
 // import Typekit from 'typekit';
 
-//MDB table
-import { MDBDataTable } from 'mdbreact';
-
 //components
 import Sidebar from '../components/sidebar';
-// import Header from '../components/header';
+import BurgerNav from '../components/burgerNav';
 import DonaturTable from '../components/donaturTable';
 
 //styles
@@ -19,49 +16,24 @@ class Donatur extends Component {
 
     componentDidMount() {
         document.body.style.background = "#142d4c";
-
-        // const script = document.createElement("script");
-
-        // script.src = "../script/searchTableDonatur";
-        // script.async = true;
-
-        // document.body.appendChild(script);
-
-        //table scroll start
-        // window.onload = function () {
-        //     var tableCont = document.querySelector('#table-donatur');
-
-        //     function scrollHandle(e) {
-        //         var scrollTop = this.scrollTop;
-        //         this.querySelector('thead').style.transform = 'translateY(' + scrollTop + 'px)';
-        //         // this.querySelector('thead').style.top = '${scrollTop}px';
-        //     }
-
-        //     tableCont.addEventListener('scroll', scrollHandle)
-        // }
-        //table scroll end
     }
 
     render() {
-        // var postscribe = require('postscribe');
-        // postscribe(<script language="javascript" src="../script/searchTableDonatur.js"></script>')
         return (
             < div >
                 <div className="row m-0">
                     {/* <Header /> */}
                     <Sidebar />
-                    {/* <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
-                        <div className="report-table-donatur-container col-12 my-5">
-                        <DonaturTable />
+                    <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
+                        <BurgerNav />
+                        <div className="report-table-container col-12 my-5">
+                            <DonaturTable />
                         </div>
-                    </div> */}
+                    </div>
 
 
-                    <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
+                    {/* <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
                         <div className="report-table-donatur-container col-12 my-4">
-
-
-                            {/* <ScriptTag isHydrating={true} type="text/javascript" src="../script/searchTableDonatur" /> */}
 
                             <input type="text" id="search-donatur" onKeyUp="searchTableDonatur()" placeholder="Search name.." />
                             <table className="table table-hover table-donatur" id="table-donatur">
@@ -431,7 +403,7 @@ class Donatur extends Component {
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div >
         )

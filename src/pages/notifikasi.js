@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 //components
 import Sidebar from '../components/sidebar';
-import Header from '../components/header';
+import BurgerNav from '../components/burgerNav';
 
 //styles
 import '../styles/notifikasi.css';
@@ -19,7 +19,8 @@ class Notifikasi extends Component {
                 <div className="row m-0">
                     {/* <Header /> */}
                     <Sidebar />
-                    <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
+                    <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
+                        <BurgerNav />
                     </div>
                 </div>
             </div>

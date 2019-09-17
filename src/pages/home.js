@@ -1,36 +1,17 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { MDBNavbar, MDBNavbarBrand, NavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer } from 'mdbreact';
-
-//chart
-import Chart from '../components/chart';
 
 //components
 import Sidebar from '../components/sidebar';
-import Header from '../components/header';
+import BurgerNav from '../components/burgerNav';
+import Chart from '../components/chart';
 
 //styles
 import '../styles/home.css';
 
 class Home extends Component {
 
-    state = {
-        collapseID: ''
-    }
-
-    // constructor(props){
-    //     super(props)
-    //     this.state = {
-    //         result: [],
-    //     };
-    // }
-
     componentWillMount() {
         document.body.style.background = "#142d4c";
-    }
-
-    toggleCollapse = collapseID => () => {
-        this.setState(prevState => ({ collapseID: (prevState.collapseID !== collapseID ? collapseID : '') }));
     }
 
     render() {
@@ -39,32 +20,8 @@ class Home extends Component {
                 <div className="row m-0">
                     {/* <Header /> */}
                     <Sidebar />
-                    <div className="dashboard-content-container col-12 col-sm-9 col-md-10">
-                        <Router>
-                            <MDBContainer className="d-md-none">
-                                <MDBNavbar color="lighten-4" style={{ marginTop: '20px', background: 'transparent' }} light>
-                                    <MDBContainer>
-                                        <MDBNavbarToggler onClick={this.toggleCollapse('navbarCollapse1')} />
-                                        <MDBCollapse id="navbarCollapse1" isOpen={this.state.collapseID} navbar>
-                                            <NavbarNav left>
-                                                <MDBNavItem>
-                                                    <MDBNavLink to='/'>Dashboard</MDBNavLink>
-                                                </MDBNavItem>
-                                                <MDBNavItem>
-                                                    <MDBNavLink to='/donatur'>Donatur</MDBNavLink>
-                                                </MDBNavItem>
-                                                <MDBNavItem>
-                                                    <MDBNavLink to='/donasi'>Donasi</MDBNavLink>
-                                                </MDBNavItem>
-                                                <MDBNavItem>
-                                                    <MDBNavLink to='/notifikasi'>Notifikasi</MDBNavLink>
-                                                </MDBNavItem>
-                                            </NavbarNav>
-                                        </MDBCollapse>
-                                    </MDBContainer>
-                                </MDBNavbar>
-                            </MDBContainer>
-                        </Router>
+                    <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
+                        <BurgerNav />
 
                         <div className="action-container mt-3">
                             <a href="#">

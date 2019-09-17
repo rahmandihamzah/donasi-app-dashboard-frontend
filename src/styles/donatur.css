@@ -8,8 +8,8 @@
     position: relative;
 }
 
-.report-table-donatur-container {
-    height: 93vh;
+.report-donatur-container {
+    height: 100vh;
     overflow: auto;
 }
 
@@ -25,4 +25,10 @@
 
 .table-content-center {
     text-align: center;
+}
+
+.table-action {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }

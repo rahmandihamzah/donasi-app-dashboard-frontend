@@ -18,18 +18,11 @@
 .account-nav {
     width: 100%;
     margin-top: 50px;
-    /* display: flex; */
     align-items: center;
 }
 
 .dropdown-account-container {
     background-color: #9fd3c7;
-    /* border-radius: 60%; */
-    /* width: 50px;
-    height: 50px; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .dropdown-trigger {
@@ -39,6 +32,16 @@
 }
 
 .dropdown-trigger:hover {
+    text-decoration: none;
+    color: #9fd3c7;
+}
+
+.dropdown-trigger-burgerNav {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-trigger-burgerNav:hover {
     text-decoration: none;
     color: #9fd3c7;
 }
@@ -70,4 +73,15 @@
 
 .menu-container ul li a:hover {
     color: #9fd3c7;
+}
+
+.signout-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+.signout-icon {
+    transform: rotate(180deg);
+    font-size: 1.5rem;
 }
