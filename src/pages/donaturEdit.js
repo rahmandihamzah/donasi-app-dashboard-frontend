@@ -6,7 +6,7 @@ import Sidebar from '../components/sidebar';
 import BurgerNav from '../components/burgerNav';
 
 //styles
-import '../styles/setting.css';
+import '../styles/donaturEdit.css';
 
 //datepicker style
 import "react-datepicker/dist/react-datepicker.css";
@@ -30,6 +30,9 @@ class DonaturEdit extends Component {
                     <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
                         <BurgerNav />
                         <div className="form-donatur-edit my-5">
+                            <a href="/donatur">
+                                <i className="fas fa-arrow-alt-circle-left fa-2x mb-3 mb-md-5 icon-back"></i>
+                            </a>
                             <form action="">
                                 <div className="form-row">
                                     <div className="form-group col-12 col-md-6">
@@ -38,7 +41,7 @@ class DonaturEdit extends Component {
                                     </div>
                                     <div className="form-group col-12">
                                         <label for="inputAddress">Alamat</label>
-                                        <input type="text" class="form-control" id="inputAddress" placeholder="Alamat Lengkap" />
+                                        <input type="text" className="form-control" id="inputAddress" placeholder="Alamat Lengkap" />
                                     </div>
                                     <div className="form-group col-12 col-md-6 d-flex flex-column">
                                         <label For="inputBirtday">Tanggal Lahir</label>
@@ -55,13 +58,13 @@ class DonaturEdit extends Component {
                                         <label For="inputPhone">Nomor Telepon</label>
                                         <input type="text" className="form-control" id="inputPhone" placeholder="Nomor Telepon" />
                                     </div>
-                                    <div class="form-group col-12 col-md-6">
+                                    <div className="form-group col-12 col-md-6">
                                         <label for="inputEmail">Email</label>
-                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" />
+                                        <input type="email" className="form-control" id="inputEmail" placeholder="Email" />
                                     </div>
-                                    <div class="form-group col-12 col-sm-4">
+                                    <div className="form-group col-12 col-sm-4">
                                         <label for="inputState">Status Donatur</label>
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputState" className="form-control">
                                             <option selected>Choose...</option>
                                             <option>Regular</option>
                                             <option>Premium</option>
@@ -81,7 +84,7 @@ class DonaturEdit extends Component {
                                         <input type="text" className="form-control" id="inputRekName" placeholder="Nama Pemilik Rekening" />
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-dark">Simpan Setelan</button>
+                                <button type="submit" className="btn btn-dark float-right">Simpan Setelan</button>
                             </form>
                         </div>
                     </div>

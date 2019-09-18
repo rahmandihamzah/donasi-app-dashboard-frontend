@@ -21,6 +21,23 @@ class Setting extends Component {
                     <Sidebar />
                     <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
                         <BurgerNav />
+                        <div className="setting-container my-5">
+                            <form action="">
+                                <div className="form-row">
+                                    <div className="form-group col-12">
+                                        <label For="inputNotificationServerId">Notification Server ID</label>
+                                        <input type="text" className="form-control" id="inputNotificationServerId" />
+                                    </div>
+                                </div>
+                                <div className="form-row">
+                                    <div className="form-group col-12">
+                                        <label For="inputNotificationRestKey">Notification Rest Key</label>
+                                        <input type="text" className="form-control" id="inputNotificationRestKey" />
+                                    </div>
+                                </div>
+                                <button type="submit" className="btn btn-dark float-right">Simpan Pengaturan</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

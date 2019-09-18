@@ -52,8 +52,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -64,8 +64,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -76,8 +76,8 @@ const DonaturTable = () => {
                 status: 'Berhasil',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -88,8 +88,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -100,8 +100,8 @@ const DonaturTable = () => {
                 status: 'Berhasil',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -112,8 +112,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -124,8 +124,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -136,8 +136,8 @@ const DonaturTable = () => {
                 status: 'Pending',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
             {
@@ -148,8 +148,8 @@ const DonaturTable = () => {
                 status: 'Berhasil',
                 action:
                     <div className="table-action">
-                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye"></i></a>
-                        <a href=""><i className="fas fa-trash"></i></a>
+                        <a href="" data-toggle="modal" data-target="#detailDonasi"><i className="fas fa-eye mx-2"></i></a>
+                        <a href=""><i className="fas fa-trash mx-2"></i></a>
                     </div>
             },
         ]

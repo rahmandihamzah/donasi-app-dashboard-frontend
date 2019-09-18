@@ -21,8 +21,8 @@ class AdminProfile extends Component {
                     <Sidebar />
                     <div className="dashboard-content-container col-12 col-md-10 h-auto min-vh-100">
                         <BurgerNav />
-                        <div className="profileForm-container d-flex flex-column flex-sm-row align-items-center align-items-sm-start col-12 my-4">
-                            <div className="profilePic-container d-flex flex-column align-items-center rounded pt-3 col-10 col-sm-3 mr-3">
+                        <div className="profileForm-container d-flex flex-column flex-md-row align-items-center align-items-md-start col-12 my-4">
+                            <div className="profilePic-container d-flex flex-column align-items-center rounded pt-3 col-10 col-sm-6 col-md-3 h-auto mr-md-3 mb-3 mb-md-0">
                                 <div className="profilePic rounded-circle d-flex justify-content-center">
                                     <i className="fas fa-user fa-6x py-3 px-3 pic"></i>
                                 </div>
@@ -73,7 +73,7 @@ class AdminProfile extends Component {
                                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password" />
                                         </div>
                                     </div>
-                                    <button type="submit" className="btn btn-dark btn-save">Simpan Setelan</button>
+                                    <button type="submit" className="btn btn-dark btn-save float-right">Simpan Setelan</button>
                                 </form>
                                 <table></table>
                             </div>
